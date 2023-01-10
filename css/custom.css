@@ -1,0 +1,214 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.logo{
+    position: absolute;
+    top: 100px;
+    right: 50%;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/background/h_imgDS.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.header-content{
+    margin-bottom:50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.mouse-click{
+    position: absolute;
+    top: 500px;
+    bottom: 50%;
+
+}
+
+
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* mobile device*/
+@media only screen and (max-width: 850px){
+
+.navbar{
+    padding: 0;
+}
+
+.logo{
+position: absolute;
+top: 30px;
+left: 30px;
+}
+
+.nav-links{
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+}
+
+.About-Us{
+    text-align: center;
+    font-size: small;
+
+}
+
+.services{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(/background/s_imageDS.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+h5{
+   text-align: center;
+}
+
+.service-content{
+    margin-bottom:50px;
+    text-align: justify;
+}
+
+
+.column{
+    flex: 5%;
+    padding: 5px;
+  }
+
+  .services_icons{
+    margin-top: 50px;
+    text-align: center;
+    padding-right: 5px;
+    display: flex;
+}
+
+h3{
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.portfolio{
+    align-items: center;
+    margin-left: 100px;
+}
+
+.wrapper{
+    height: 60vh;
+    align-items: center;
+    margin-left: 100px;
+    background-image: url(/background/c_imageDS.jpg);
+    margin-right: 200px
+
+}
+
+.heading{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.heading h6{
+    color: whitesmoke;
+    margin: 5px;
+}
+
+form{
+    text-align: center;
+}
+
+form input{
+padding-right: 115px;
+box-sizing: border-box;
+margin-top: 30px;
+}
+
+form span{
+    position: relative;
+}
+
+.transbox{
+    margin: 30px;
+    border: 1px solid black;
+    opacity: 0.5;
+}
+
+.social-icons{
+  margin-top: 50px;
+  margin-left: 350px;
+}
+
+footer{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.footer h6{
+    text-align: center;
+}
