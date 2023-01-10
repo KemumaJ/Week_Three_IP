@@ -23,7 +23,7 @@ HTML, CSS, Bootstrap, JavaScript, jQuery
 
 ## Live Link
 
-https://kemumaj.github.io/Week3_IP/
+https://kemumaj.github.io/Week_Three_IP/
 
 ## Contact Information
 
